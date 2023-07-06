@@ -3,7 +3,7 @@ class DirectorsController < ApplicationController
 
   def index
     directors = Director.all
-    render json: directors
+    render json: directors.
   end
 
   def show
